@@ -1,0 +1,102 @@
+ body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    height: 100vh;
+    justify-content: center;
+    align-items: center; 
+} 
+.container-head{
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.level-btn {
+    display: flex;
+    flex-direction: column; /* Place le texte et les étoiles en colonne */
+    align-items: center;   /* Centre le contenu */
+    padding: 10px 50px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+}
+.level-text {
+    margin-bottom: 5px; /* Ajoute de l'espace entre le texte et les étoiles */
+}
+
+.level-stars {
+    font-size: 14px; /* Ajuste la taille des étoiles */
+}
+
+
+/* Sur les petits écrans : disposition verticale */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column; /* Empile les éléments verticalement */
+        align-items: center; /* Centre les éléments */
+        width: 100%;
+    }
+
+    .level-btn {
+        width: 50%; /* Largeur des boutons sur les petits écrans */
+        margin: 5px 0; /* Ajoute de l'espace entre les boutons */
+         }
+}
+ 
+@media (max-width: 426px) {
+    .container {
+        flex-direction: column; /* Empile les éléments verticalement */
+        align-items: center; /* Centre les éléments */
+        width: 100%;
+    }
+
+    .level-btn {
+        width: 56%; /* Largeur des boutons sur les petits écrans */
+        margin: 5px 0; /* Ajoute de l'espace entre les boutons */
+        
+    }
+}
+ 
+
+h1 {
+    color: #000000;
+}
+
+input {
+    padding: 10px;
+    width: 20%;
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #002348;
+    transition: 0.4s;
+}
+
+p {
+    font-size: 20px;
+}

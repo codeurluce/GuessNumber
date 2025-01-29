@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devinez le Nombre </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container-head">
+        <h1> Devinez le Nombre </h1> 
+            <P>But du jeu : deviner le nombre compris dans une plage définie avant que le temps imparti ne soit écoulé.</P>
+    </div>
+    <div id="level-selection" class="container">
+        <h2>Choisissez un niveau</h2>   
+        <button class="level-btn" data-range="10" data-time="10">
+            <span class="level-text">Facile</span>
+            <span class="level-stars">★</span>
+        </button>
+        <button class="level-btn" data-range="100" data-time="20">
+            <span class="level-text">Moyen</span>
+            <span class="level-stars">★★</span>
+        </button>
+        <button class="level-btn" data-range="1000" data-time="30">
+            <span class="level-text">Difficile</span>
+            <span class="level-stars">★★★</span>
+        </button>
+        <button class="level-btn" data-range="10000" data-time="90">
+            <span class="level-text">Expert</span>
+            <span class="level-stars">★★★★★</span>
+        </button>
+    </div>
+
+    <div id="game-container" class="container" style="display: none;">
+        <h1>A vous de jouer</h1>
+        <p>Le nombre est compris entre <span id="range-start">0</span> et <span id="range-end"></span></p>
+        <input type="number" id="guess-input" placeholder="Votre devinette...">
+        <button id="submit-btn">Deviner</button>
+        <p id="message"></p>
+        <p>Temps restant : <span id="timer"></span> secondes</p>
+        <button id="reset-btn" style="display: none;">Rejouer</button>
+        <button id="change-level-btn" style="display: none;">Changer de niveau</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
