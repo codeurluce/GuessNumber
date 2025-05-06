@@ -1,6 +1,6 @@
-# 🎯 Devinez le Nombre
+# 🎯 Guess the Number
 
-**Devinez le Nombre** est un **jeu interactif** en JavaScript où l'utilisateur doit trouver un nombre aléatoire généré par l'ordinateur **dans une plage définie et dans un temps limité**. Le jeu propose plusieurs niveaux de difficulté, chacun avec ses propres règles et contraintes.
+**Guess the Number** est un **jeu interactif** en JavaScript où l'utilisateur doit trouver un nombre aléatoire généré par l'ordinateur **dans une plage définie et dans un temps limité**. Le jeu propose plusieurs niveaux de difficulté, chacun avec ses propres règles et contraintes.
 
 ---
 
