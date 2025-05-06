@@ -6,7 +6,7 @@
 
 ## 📸 Aperçu
 
-![Aperçu du site]('screenshot1.png')
+![Aperçu du site](screenshot1.png)
 
 --
 
