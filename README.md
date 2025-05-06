@@ -4,6 +4,12 @@
 
 ---
 
+## 📸 Aperçu
+
+![Aperçu du site]('screenshot1.png')
+
+--
+
 ## 🧠 Principe du jeu
 
 * L’ordinateur choisit un **nombre aléatoire** dans une plage spécifique (ex. 1 à 100).
